@@ -1,9 +1,3 @@
 # Number-Guessing-Game
 a simple number guessing game 
-The Number Guessing Game is a simple Python project in which the computer randomly selects a number within a specific range. The player has to guess the correct number. After each guess, the program gives a hint such as “Too High” or “Too Low” until the correct number is guessed.
-Features:
-Random number generation
-User input for guesses
-High/low hints
-Counts the number of attempts
-Displays a winning message when the correct number is guessed
+This Python program creates a simple Number Guessing Game between the user and the computer. The program imports the random module to generate a random number between 1 and 100. The user is asked to guess the number. After each guess, the program checks whether the guess is too high, too low, or correct using if, elif, and else statements. The game continues until the user guesses the correct number. This program demonstrates the use of input, random number generation, a while loop, and conditional statements in Python.
